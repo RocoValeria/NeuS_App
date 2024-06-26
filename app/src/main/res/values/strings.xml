@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">  NeuSupport App  </string>
+    <string name="Bienvenido"> Bienvenido </string>
+    <string name="ingrese_su_contraseña"> Ingrese su Contraseña </string>
+    <string name="guardar_datos"> Guardar Datos </string>
+    <string name="registrarse"> Registrarse </string>
+    <string name="ingrese_su_email"> ingrese su email </string>
+    <string name="ingrese_password_again"> Vuelva a escribir su contraseña </string>
+    <string name="volver_menu">   Vuelva al Menu inicial  </string>
+    <string name="su_email">Su email</string>
+    <string name="su_constrase_a">Su constraseña</string>
+    <string name="Mregistrarse">Menu de registro</string>
+</resources>

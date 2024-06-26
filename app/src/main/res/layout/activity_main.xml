@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/type_m"
+            android:shadowColor="#091837"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="30"
+            android:text="@string/Bienvenido"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="95dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="154dp"
+                    android:layout_height="175dp"
+                    app:srcCompat="@drawable/neu_icono"
+                    tools:layout_editor_absoluteX="128dp"
+                    tools:layout_editor_absoluteY="154dp"
+                    tools:ignore="MissingConstraints" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="86dp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/emailAdress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingrese_su_email"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.214"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.53" />
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="416dp"
+                    android:hint="@string/su_email"
+                    android:ems="14"
+                    android:inputType="textEmailAddress"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.8"
+                    android:background="@drawable/estilotextos"/>
+
+                <TextView
+                    android:id="@+id/email1Passwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text='@string/ingrese_su_contraseña'
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.22"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.685" />
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="14"
+                    android:inputType="textPassword"
+                    android:hint="@string/su_constrase_a"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="59dp"
+                    tools:layout_editor_absoluteY="516dp"
+
+                    android:background="@drawable/estilotextos"/>
+
+                <Button
+                    android:id="@+id/buttonGuardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:color="#0F5F8A"
+                    android:text="@string/guardar_datos"
+                    tools:layout_editor_absoluteX="121dp"
+                    tools:layout_editor_absoluteY="574dp"
+                    tools:ignore="MissingConstraints" />
+
+
+                <TextView
+                    android:id="@+id/tv_go_to_registro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/registrarse"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.898" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/type_m"
+            android:shadowColor="#091837"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="20"
+            android:text="@string/Mregistrarse"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imagefondoneu"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            app:srcCompat="@drawable/neu_icono" />
+
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/ingrese_su_email"
+            android:textAlignment="center"
+            android:textColor="#190C53"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/usuarioEmail"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="coloque aqui su email"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@drawable/estilotextos"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_margin="20dp"
+            android:text="@string/ingrese_su_contraseña"
+            android:textAlignment="center"
+            android:textColor="#190C53"
+            android:textSize="17sp" />
+
+        <EditText
+
+            android:id="@+id/usuarioPassword"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:hint="******"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@drawable/estilotextos"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/ingrese_password_again"
+            android:textAlignment="center"
+            android:textColor="#190C53"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="******"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="@drawable/estilotextos"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/guardar_datos"
+            android:textAlignment="center"
+            android:background="@drawable/button"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_go_to_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/volver_menu"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
